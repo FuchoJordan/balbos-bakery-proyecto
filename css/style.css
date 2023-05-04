@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+*{
+    margin:0;
+    padding:0%;
+    box-sizing: border-box;
+}   
+
+header{
+    background-color: rgba(114, 134, 211, 1);
+    padding: 20px 20px 10px 20px;
+    position: sticky;
+    top: 0;
+}
+.pupu{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+h1{
+    text-align: left;
+    text-indent: 50px;
+    font-family: 'Caramel', cursive;
+    font-size: 80px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.eslogan{
+    text-align: center;
+    font-family: 'Caramel', cursive;
+    font-size: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.navbar li a{
+    text-decoration: none;
+    color:rgba(170, 227, 226, 1) ;
+}
+.navbar li{
+    padding: 10px;
+    font-size: 20px;
+}
+.circulo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.966);
+    position: absolute;
+    top: 0px;
+}
+main{
+    background-color:rgba(170, 227, 226, 1) ;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:space-evenly;
+}
+.box a{
+    text-decoration: none;
+}
+.box h2{
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+}
+.boxer{
+    width: 350px;
+    height: 200px;
+}
+footer{
+    background-color:rgba(114, 134, 211, 1) ;
+    font-size: 20px;
+    color: rgba(170, 227, 226, 1) ;
+}
