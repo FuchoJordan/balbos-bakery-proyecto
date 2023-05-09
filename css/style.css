@@ -11,26 +11,39 @@ header{
     position: sticky;
     top: 0;
 }
-.pupu{
-    padding-left: 300px;
-    padding-right: 300px;
+.tit{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 h1{
     text-align: left;
     text-indent: 50px;
     font-family: 'Caramel', cursive;
-    font-size: 80px;
+    font-size: 50px;
     font-style: italic;
     text-transform: uppercase;
+    text-shadow: 10px 10px 10px black;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    justify-self: center;
+
 }
 .eslogan{
     text-align: center;
     font-family: 'Caramel', cursive;
-    font-size: 50px;
+    font-size: 30px;
     font-style: italic;
     text-transform: capitalize;
     padding: 0px 0px 10px 0px;
+    text-shadow: 10px 10px 10px black;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row: 2 / 3;
 }
+
 .navbar{
     list-style: none;
     text-align: center;
@@ -38,6 +51,9 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:flex-end;
+}
+.navbar{
+    position: sticky;
 }
 .navbar li a{
     text-decoration: none;
@@ -48,8 +64,8 @@ h1{
     font-size: 20px;
 }
 .circulo{
-    width: 250px;
-    height: 250px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.966);
     position: absolute;
