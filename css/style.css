@@ -174,3 +174,22 @@ footer{
 .redes a{
     text-decoration: none;
    }
+
+
+   @media(max-width: 1024px){
+    h1{
+        grid-column: 1 / 10;
+        grid-row: 1 / 2;
+        justify-self: center;
+    }
+
+   }
+   @media(max-width: 768px){
+    
+   }
+   @media(max-width: 425px){
+    
+   }
+   @media(max-width: 375px){
+    
+   }
