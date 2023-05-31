@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
-        <div class="tit" >
+        <div class="tit">
             <h1>Balbo´s Bakery</h1>
             <h2 class="eslogan"> pan comido para nosotros</h2>
         </div>
@@ -23,22 +27,71 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <img src="../assets/img/tequeños.jpg" width="318" alt="tequeños">
-            <p>
-                Tequeños x12 <br>$1000
-            </p>
-        </section>
-        <section>
-            <img src="../assets/img/medialunas.webp" width="318" alt="medialunas">
-            <p>Medialunas x12 <br>$1000</p>
-        </section>
-        <section>
-            <img src="../assets/img/panjam.jpg" width="318" alt="pan de jamon venezolano">
-            <p>pan de jamon venezolano <br>$3000</p>
-        </section>
-    </main>
+
+    <div class="container">
+        <div class="row py-30">
+            <div class="col cards-menu">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/tequeños.jpg" height="200px" class="card-img-top" alt="tequeños">
+                    <div class="card-body">
+                        <h5 class="card-title">Tequeños x12u</h5>
+                        <p class="card-text">Precio: $1000.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col cards-menu">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/medialunas.webp" height="200px" class="card-img-top" alt="medialunas">
+                    <div class="card-body">
+                        <h5 class="card-title">Medialunas x12u</h5>
+                        <p class="card-text">Precio: $1000.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col cards-menu">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/panjam.jpg" height="200px" class="card-img-top" alt="Pan de Jamon">
+                    <div class="card-body">
+                        <h5 class="card-title">Pan de jamon venezolano</h5>
+                        <p class="card-text">Precio: $3000.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col cards-menu">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/cachito.jpg" height="200px" class="card-img-top" alt="Cachito">
+                    <div class="card-body">
+                        <h5 class="card-title">Cachitos</h5>
+                        <p class="card-text">Precio: $700.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col cards-menu">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/chips.jpeg" height="200px" class="card-img-top" alt="Cachito">
+                    <div class="card-body">
+                        <h5 class="card-title">Galletas</h5>
+                        <p class="card-text">Precio: $700.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col cards-menu">
+                <div class="card" style="width: 18rem;">
+                    <img src="/assets/img/mediajam.jpg" height="200px" class="card-img-top" alt="Cachito">
+                    <div class="card-body">
+                        <h5 class="card-title">Medialuna JyQ</h5>
+                        <p class="card-text">Precio: $700.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
         <section class="horario">
             <p>HORARIOS DE ATENCION</p>
@@ -47,31 +100,38 @@
         </section>
         <section class="contact">
             <div>
-                <img src="" alt="">
+                <img class="telypos" src="../assets/img/marcador-de-posicion.png" width="30px" alt="">
                 <p>Caracas 2100, CABA</p>
             </div>
             <div>
-                <img src="" alt="">
+                <img class="telypos" src="../assets/img/whatsapp.png" width="30px" alt="">
                 <p>123456789</p>
             </div>
         </section>
         <section class="redes">
-            <a href= "https://instagram.com/" target="_blank">
+            <a href="https://instagram.com/" target="_blank">
                 <img src="../assets/img/instagram.png" width="40px" alt="">
-                
+
             </a>
             <a href="https://twitter.com/" target="_blank">
                 <img src="../assets/img/gorjeo.png" width="40px" alt="">
-                
+
             </a>
-            <a href ="https://wwww.facebook.com/" target="_blank">
+            <a href="https://wwww.facebook.com/" target="_blank">
                 <img class="red" src="../assets/img/facebook.png" width="40px" alt="">
-                
+
             </a>
         </section>
 
-    
+
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
