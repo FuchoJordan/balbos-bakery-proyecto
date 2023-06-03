@@ -9,9 +9,6 @@
 header {
     background-color: rgba(114, 134, 211, 1);
     padding: 20px 20px 0px 20px;
-
-
-    top: 0;
 }
 
 .tit {
@@ -56,10 +53,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-}
-
-.navbar {
-    position: sticky;
+    margin: 0px;
 }
 
 .navbar li a {
@@ -72,6 +66,7 @@ h1 {
     font-size: 20px;
 }
 
+
 .circulo {
     width: 190px;
     height: 190px;
@@ -83,11 +78,49 @@ h1 {
 
 }
 
-main,
-.container,
-body {
+main,.container, body {
     background-color: rgba(170, 227, 226, 1);
     padding: 0px;
+}
+.container{
+    columns: 3;
+    padding-top: 10px;
+}
+.img-container-pana{
+    background-image: url(../assets/img/img-bakery.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 60px;
+
+}
+.img-container-teque{
+    background-image: url(../assets/img/tequeños-img.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 60px;
+
+}
+.img-container-galle{
+    background-image: url(../assets/img/galletas.jpeg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 60px;
+    
+
+}
+
+.container-fluid h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 3rem;
+    color: rgba(170, 227, 226, 1);
 }
 
 .box {
@@ -257,6 +290,9 @@ footer {
         padding-left: 50px;
         padding-right: 50px;
     }
+    .container{
+        columns: 3;
+    }
 }
 
 @media(max-width: 768px) {
@@ -313,11 +349,14 @@ footer {
     width: 120px;
     height: auto;
 }
+.container{
+    columns: 2;
+}
    }
    @media(max-width: 425px){
     header {
         background-color: rgba(114, 134, 211, 1);
-        padding: 80px 40px 0px 40px;
+        padding: 0px 40px 0px 40px;
     }
     .navbar li {
         padding: 5px;
@@ -331,17 +370,18 @@ footer {
         height: 100px;
         border-radius: 50%;
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.966);
-        
+                
     }
 
     .navbar {
         list-style: none;
         text-align: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
-        padding-left: 100px;
+        justify-content: end;
+        padding-left:50px;
+        padding-top: 10px;
 
         
     }
@@ -379,13 +419,97 @@ footer {
     }
     footer {
         background-color: rgba(114, 134, 211, 1);
-        font-size: 14px;
+        font-size: 12px;
         color: rgba(170, 227, 226, 1);
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: 100%;
         padding: 10px;
     
-    }    
+    }
+    .container{
+        columns: 1;
+        padding-left: 50px;
+    }
+
+}    
+@media(max-width: 375px){
+    header {
+        background-color: rgba(114, 134, 211, 1);
+        padding: 0px 40px 0px 40px;
+    }
+    .navbar li {
+        padding: 5px;
+        font-size: 14px;
+
+    }
+    
+
+    .circulo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.966);
+                
+    }
+
+    .navbar {
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: end;
+        padding-left:50px;
+        padding-top: 10px;
+
+        
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .eslogan {
+        display: none;
+    }
+
+    .primero p {
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .segundo p {
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-left:10px;
+        padding-right: 10px;
+        font-size: 14px;
+   }
+   .primero img {
+  display: none;
+}
+.segundo img {
+   display: none;
+    }
+    footer {
+        background-color: rgba(114, 134, 211, 1);
+        font-size: 12px;
+        color: rgba(170, 227, 226, 1);
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 100%;
+        padding: 10px;
+    
+    }
+    .container{
+        columns: 1;
+        padding-left: 50px;
+    }
 
 }    
