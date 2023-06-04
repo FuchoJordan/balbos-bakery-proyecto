@@ -127,6 +127,8 @@ main {
   .box .boxer {
     width: 350px;
     height: 200px; }
+  .box .boxer:hover {
+    transform: scale(1.2, 1.2); }
 
 .servicio h2 {
   display: flex;
@@ -208,6 +210,20 @@ main {
   background-size: cover;
   margin-bottom: 60px;
   background-position: 1%; }
+
+main .container .cards-menu .card, main .container-ños .cards-menu .card {
+  border-color: #e62d2d; }
+  main .container .cards-menu .card .card-body, main .container-ños .cards-menu .card .card-body {
+    text-align: center;
+    color: #e62d2d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    font-size: 15px; }
+    main .container .cards-menu .card .card-body a, main .container-ños .cards-menu .card .card-body a {
+      background-color: #e62d2d; }
+
+main .container .cards-menu .card:hover, main .container-ños .cards-menu .card:hover {
+  transform: scale(1.1, 1.1); }
 
 @media (max-width: 1024px) {
   header .tit {

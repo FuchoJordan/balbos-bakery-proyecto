@@ -1,0 +1,23 @@
+main{
+    .container, .container-ños{
+        .cards-menu{
+            .card{
+                border-color: rgb(230, 45, 45);
+            .card-body{
+                text-align: center;
+                color: rgb(230, 45, 45);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: antiquewhite;
+                font-size: 15px;
+                a{
+                    background-color: rgb(230, 45, 45);
+                 }
+                }
+            }
+            .card:hover{
+                transform: scale(1.1, 1.1);
+            }
+            
+        }
+    }
+}
