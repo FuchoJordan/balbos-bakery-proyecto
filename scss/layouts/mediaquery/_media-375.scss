@@ -1,0 +1,82 @@
+@media(max-width: 375px){
+    header{
+        background-color: $background-principal;
+        padding: 0px 40px 0px 40px;
+        .todo{  
+            .navbar{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-self: flex-end;
+                padding-left:0px;
+                padding-top: 10px;
+                padding-right: 10px;
+                margin-top: -100px;
+                margin-left: 200px;
+                box-sizing: border-box;
+                width: 100px;
+                height: auto;
+                li{
+                    padding: 5px;
+                    font-size: 14px;
+                }
+            }
+            .circulo{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.966);
+                position: initial;
+                margin-top: 10px;
+            }
+        }
+    }
+    main{
+        .container{
+            columns: 1;
+        }
+        .container-ños{
+            columns: 1;
+        }
+        .servicio{
+            .primero{
+                margin: 20px;
+                p{
+                    display: flex;
+                    flex-direction: row;
+                    justify-self: center;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: 14px;
+                }
+                img{
+                    display: none;
+                }
+            }
+            .segundo{
+                margin: 20px;
+                p{
+                    display: flex;
+                    flex-direction: row;
+                    justify-self: center;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: 14px;
+                }
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    footer{
+        background-color: $background-principal;
+        font-size: 12px;
+        color: rgba(170, 227, 226, 1);
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 100%;
+        padding: 10px;
+    }
+}

@@ -1,4 +1,5 @@
 @import "./utilities/variables";
+@import "./utilities/mixings";
 @import "./base/reset";
 @import "./layouts/header";
 @import "./layouts/footer";
@@ -6,3 +7,8 @@
 @import "./layouts/main-panaderia";
 @import "./layouts/main-tequeños";
 @import "./layouts/main-galletas";
+@import "./layouts/mediaquery/media-1024";
+@import "./layouts/mediaquery/media-768";
+@import "./layouts/mediaquery/media-425";
+@import "./layouts/mediaquery/media-375";
+
