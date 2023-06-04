@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+header {
+    background-color: $background-principal;
+    padding: 20px 20px 0px 20px;
+    .tit{
+        padding-left: 200px;
+        padding-right: 200px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        h1{
+            text-align: left;
+            text-indent: 50px;
+            font-family: 'Caramel', cursive;
+            font-size: 70px;
+            font-style: italic;
+            text-transform: uppercase;
+            text-shadow: 10px 10px 10px black;
+            grid-column: 1 / 8;
+            grid-row: 1 / 2;
+            justify-self: center;
+        }
+        .eslogan{
+            text-align: center;
+            font-family: 'Caramel', cursive;
+            font-size: 50px;
+            font-style: italic;
+            text-transform: capitalize;
+            padding: 0px 0px 10px 0px;
+            text-shadow: 10px 10px 10px black;
+            grid-column-start: 3;
+            grid-column-end: 8;
+            grid-row: 2 / 3;
+        }
+    }
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0px;
+    li{
+        padding: 10px;
+        font-size: 20px;
+        }
+    li a{
+        text-decoration: none;
+        color: $background-secundario
+        }
+    li a:hover{
+        color: chartreuse;
+        }
+}
+.circulo {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.966);
+    position: absolute;
+    top: 10px;
+}

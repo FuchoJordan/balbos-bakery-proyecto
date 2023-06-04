@@ -1,0 +1,86 @@
+main{
+    background-color: $background-secundario;
+    padding: 0%;
+    .container{
+        columns: 3;
+        padding-top: 10px;
+        }
+        .container-fluid h2{
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 3rem;
+            color: $background-secundario;
+        }
+            .cards-menu {
+                margin-bottom: 15px;
+            }
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    a{
+        text-decoration: none;
+    }
+    h2{
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+        .boxer{
+        width: 350px;
+        height: 200px;
+        }
+    }
+}
+.servicio h2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 20px;
+    font-family: 'Caramel', cursive;
+    font-size: 40px;
+    }
+.primero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin: 100px;
+    box-shadow: 10px 10px 10px black;
+    border-style: solid;
+    background-color: antiquewhite;
+    p{
+       display: flex;
+       flex-direction: row;
+       justify-self: center;
+       align-self: center;
+       padding-left: 100px;
+       padding-right: 100px;
+    }
+}        
+
+.segundo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        margin: 100px;
+        box-shadow: 10px 10px 10px black;
+        border-style: solid;
+        background-color: antiquewhite;
+        p{
+            display: flex;
+            flex-direction: row;
+            justify-self: center;
+            align-self: center;
+            padding-left: 300px;
+            padding-right: 100px;
+        }
+    }

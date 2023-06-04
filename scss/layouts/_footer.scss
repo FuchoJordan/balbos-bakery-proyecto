@@ -1,0 +1,38 @@
+footer {
+    background-color: $background-principal;
+    font-size: 20px;
+    color: $background-secundario;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100%;
+    padding: 10px;
+    .horario {
+        grid-column: 1/ 4;
+        justify-content: center;
+        align-self: center;
+        letter-spacing: 1px;
+    }
+    .contact {
+        display: grid;
+        grid-column: 5/ 10;
+        padding-bottom: 15px;
+        padding-right: 0%;
+        text-indent: 5%;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 2;
+    }
+    .telypos {
+        float: left;
+        grid-column: 4/ 5;
+    }
+}
+.redes {
+    grid-column: 11 / 13;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 20px;
+    a {
+        text-decoration: none;
+    }
+}
